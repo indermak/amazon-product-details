@@ -1,0 +1,233 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+} */
+
+body {
+  min-width: 20rem;
+}
+
+main {
+  /* text-align: center; */
+  padding: 1em;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #f3e5ab;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.2rem;
+  margin: .5rem auto;
+}
+
+h6 {
+  font-size: 0.5rem;
+  color: #333333;
+  margin: 0.5rem;
+}
+
+a {
+  font-size: 0.5rem;
+  margin: 0.5rem;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+@media (min-width: 480px) {
+  h3 {
+    max-width: none;
+  }
+}
+
+.urlText {
+  display: none;
+}
+
+.cnxLogo {
+  height: 90px;
+  width: 160px;
+}
+
+.cnxLogoLogin {
+  height: 80px;
+  width: 170px;
+  padding-bottom: 10px;
+}
+
+.loginScreen {
+  display: block;
+  padding: 5px 20px;
+  width: max-content;
+}
+
+.loggedInScreen {
+  display: none;
+  width: max-content;
+}
+
+.labelText {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.inputBox {
+  height: 30px;
+  padding: 5px 10px;
+  width: 230px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.inputDiv {
+  padding-bottom: 10px;
+}
+
+.ctaButton {
+    width: -webkit-fill-available;
+    height: 30px;
+    border-radius: 24px;
+    background: #5475d8;
+    border: 0px;
+    color: white;
+    margin: 5px 0;
+}
+
+.signOutText{
+  float: right;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cnxText{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.columnLeft {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.detailsCol {
+  padding: 30px 0px;
+  width: 450px;
+}
+
+.nameText {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.emailText {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logoutBtn{
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  font-size: large;
+}
+
+.youtube {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.url {
+  font-size: 14px;
+  font-weight: 600;
+  width: 475px;
+  margin: 10px 0;
+}
+
+.formDiv {
+  margin: 8px 0;
+  height: 50px;
+}
+
+.languageLabel{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.headingContent {
+  margin: 4px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+#content {
+  margin-top: 22px;
+}
+.dropdownField {
+  margin-top: 7px;
+}
+
+#left {
+    float: left;
+    width: 70%;
+}
+
+#right {
+    float: left;
+    width: 30%;
+}
+
+.extension{
+  width: 435px;
+  display: block;
+}
+
+.languageSelection {
+  width: 50%;
+}
+
+.popupModal{
+  display: none;
+  overflow: auto;
+}
+
+.showTextButton {
+  display: none;
+}
+
